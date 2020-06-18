@@ -13,7 +13,7 @@ class ShoeType(models.Model):
     style = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return self.style
 
 
 class ShoeColor(models.Model):
@@ -35,7 +35,7 @@ class ShoeColor(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return self.color
 
 
 class Shoe(models.Model):
@@ -46,6 +46,3 @@ class Shoe(models.Model):
     material = models.CharField(max_length=200)
     shoe_type = models.ForeignKey(ShoeType, on_delete=models.CASCADE)
     fasten_type = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.name
