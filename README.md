@@ -38,3 +38,7 @@ Black
 The above can also be done with a built-in system called loaddata and fixtures, but we're going to kill two birds with one stone and do it the slightly longer way.
 
 Don't worry about authentication, we just want it to be usable.
+
+# Link to frontend page:
+
+https://github.com/chewh115/frontend_shoestore
