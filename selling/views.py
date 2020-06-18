@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework import ModelViewSet
+from rest_framework.viewsets import ModelViewSet
 from .serializers import ManufacturerSerializer, ShoeTypeSerializer, ShoeColorSerializer, ShoeSerializer
 from .models import Manufacturer, ShoeType, ShoeColor, Shoe
 
